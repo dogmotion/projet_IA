@@ -1,6 +1,5 @@
-print ("Bonjour c'est moi , je suis ta nouvelle intelligence artifficielle qui n'a pas encore de nom, veut tu me donner un surnom")
-input("Entrez true ou flase si vous voulez le surnom!") 
-prenom = input("choisis mon prenom ")
+print ("Bonjour c'est moi , je suis ta nouvelle intelligence artifficielle, Amélia, Donne moi mon surnom") 
+prenom = input("choisis mon surnom ")
 print("merci j'aime bien", prenom)
 nom = input("quel est ton nom?")
 print ("bonjour", nom) 
