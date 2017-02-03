@@ -15,31 +15,39 @@ else:
   continuer = 0
   while continuer == 0:
     aDire = input("Que veux-tu me dire? : ")
-    if aDire == ("HELP!"):
+    if aDire == ("aide"):
         print("Tu as besoin d'aide avec les commandes?")
-        print("Bah désolé mais la y'a rien :'-(")
-        print("Du coup continue!")
-    elif aDire == ("A plus!"):
+        print("Il ne faut pas écrire de phrases trop longues, pas de ponctuation (virgules, points etc... et pas de majuscules")
+        print("Continuons !")
+    elif aDire == ("c'est nul"):
       print("Bon, au revoir alors!")
       continuer = 1#Permet de quitter la boucle
-    elif aDire == ("A plus!"):
+    elif aDire == ("au revoir"):
       print("Bon, au revoir alors!")
       continuer = 1#Permet de quitter la boucle
     elif aDire == ("Ta vie c'est de la merde"):
       print("J'ai le coeur rempli de joie, tu as le cul rempli de jus")
     
-    elif aDire == ("A plus!"):
-      print("Bon, au revoir alors!")
-      continuer = 1#Permet de quitter la boucle
-    elif aDire == ("A plus!"):
-      print("Bon, au revoir alors!")
-      continuer = 1#Permet de quitter la boucle
+    elif aDire == ("je t'aime"):
+      print("Ah, ce n'est pas reciproque...")
+     
+    elif aDire == ("quel heure est il"):
+      print("T'as qu'a t'acheter une montre mongolito !")
     
-    elif aDire == ("A plus"):
-        print("Bon, au revoir alors!")
-      #elif(aDire ==  "chainedecaractere")
-        #actions
-      #ect jusqu'a :
+    
+    elif aDire == ("comment tu t'appelle"):
+      print("Amélia, ton assistante personnelle")
+    elif aDire == ("comment tu t'appelle"):
+      print("Amélia, ton assistante personnelle")
+    elif aDire == ("comment tu t'appelle"):
+      print("Amélia, ton assistante personnelle")
+    elif aDire == ("comment tu t'appelle"):
+      print("Amélia, ton assistante personnelle")
+    elif aDire == ("comment tu t'appelle"):
+      print("Amélia, ton assistante personnelle")
+    elif aDire == ("comment tu t'appelle"):
+      print("Amélia, ton assistante personnelle")
+      
     else:
         print("Désolé, faite gaffe à ton orthographe,")
         print("je nem pas les majuscules et la ponctuation")
