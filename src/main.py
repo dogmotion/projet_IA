@@ -9,7 +9,7 @@ age = int(input("quel âge as-tu?"))
 if (age < 20):  
   print("Tu est trop jeune", nom ," désolé salut")
 elif (age > 45):
-  print("Cette appareil n'est pas fait pour les vieux Désolé")
+  print(" je n'es pas été fait pour les vieux Désolé")
 else:
   print("c'est bon tu peut avoir accès a moi", nom)
   continuer = 0
@@ -35,7 +35,7 @@ else:
       print("Bon, au revoir alors!")
       continuer = 1#Permet de quitter la boucle
     
-    elif aDire == ("A plus!"):
+    elif aDire == ("A plus"):
         print("Bon, au revoir alors!")
       #elif(aDire ==  "chainedecaractere")
         #actions
