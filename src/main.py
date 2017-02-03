@@ -41,4 +41,6 @@ else:
         #actions
       #ect jusqu'a :
     else:
-        print("Désolé, je ne comprends pas du tout ce que tu veux dire!")
+        print("Désolé, faite gaffe à ton orthographe,")
+        print("je nem pas les majuscules et la ponctuation")
+        
