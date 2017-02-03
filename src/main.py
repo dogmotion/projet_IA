@@ -12,33 +12,33 @@ elif (age > 45):
   print("Cette appareil n'est pas fait pour les vieux Désolé")
 else:
   print("c'est bon tu peut avoir accès a moi", nom)
-continuer = 0
-while continuer == 0:
-  aDire = input("Que veux-tu me dire? : ")
-if aDire == ("HELP!"):
-    print("Tu as besoin d'aide avec les commandes?")
-    print("Bah désolé mais la y'a rien :'-(")
-    print("Du coup continue!")
-elif aDire == ("A plus!"):
-  print("Bon, au revoir alors!")
-    continuer = 1#Permet de quitter la boucle
-  elif aDire == ("A plus!"):
-  print("Bon, au revoir alors!")
-    continuer = 1#Permet de quitter la boucle
-elif aDire == ("Ta vie c'est de la merde"):
-  print("J'ai le coeur rempli de joie, tu as le cul rempli de jus")
-    continuer = 1#Permet de quitter la boucle
-elif aDire == ("A plus!"):
-  print("Bon, au revoir alors!")
-    continuer = 1#Permet de quitter la boucle
-elif aDire == ("A plus!"):
-  print("Bon, au revoir alors!")
-    continuer = 1#Permet de quitter la boucle
-
-  elif(aDire == "A plus!")
-    print("Bon, au revoir alors!")
-  #elif(aDire == "chainedecaractere")
-    #actions
-  #ect jusqu'a :
-  else
-    print("Désolé, je ne comprends pas du tout ce que tu veux dire!")
+  continuer = 0
+  while continuer == 0:
+    aDire = input("Que veux-tu me dire? : ")
+    if aDire == ("HELP!"):
+        print("Tu as besoin d'aide avec les commandes?")
+        print("Bah désolé mais la y'a rien :'-(")
+        print("Du coup continue!")
+    elif aDire == ("A plus!"):
+      print("Bon, au revoir alors!")
+      continuer = 1#Permet de quitter la boucle
+    elif aDire == ("A plus!"):
+      print("Bon, au revoir alors!")
+      continuer = 1#Permet de quitter la boucle
+    elif aDire == ("Ta vie c'est de la merde"):
+      print("J'ai le coeur rempli de joie, tu as le cul rempli de jus")
+    
+    elif aDire == ("A plus!"):
+      print("Bon, au revoir alors!")
+      continuer = 1#Permet de quitter la boucle
+    elif aDire == ("A plus!"):
+      print("Bon, au revoir alors!")
+      continuer = 1#Permet de quitter la boucle
+    
+    elif aDire == ("A plus!"):
+        print("Bon, au revoir alors!")
+      #elif(aDire ==  "chainedecaractere")
+        #actions
+      #ect jusqu'a :
+    else:
+        print("Désolé, je ne comprends pas du tout ce que tu veux dire!")
