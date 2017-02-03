@@ -17,9 +17,10 @@ while(continuer == 0)
     print("Tu as besoin d'aide avec les commandes?")
     print("Bah désolé mais la y'a rien :'-(")
     print("Du coup continue!")
-  #elsif(aDire == "chainedecaractere")
-    #actions
-  #elsif(aDire == "chainedecaractere")
+  elif(aDire == "A plus!")
+    print("Bon, au revoir alors!")
+    continuer = 1#Permet de quitter la boucle
+  #elif(aDire == "chainedecaractere")
     #actions
   #ect jusqu'a :
   else
