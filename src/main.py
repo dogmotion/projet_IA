@@ -11,3 +11,17 @@ elif (age > 45):
   print("Cette appareil n'est pas fait pour les vieux Désolé")
 else:
 print("c'est bon tu peut avoir accès a moi",nom)
+while(continuer == 0)
+  aDire = input("Que veux-tu me dire? : ")
+  if(aDire == "HELP!")
+    print("Tu as besoin d'aide avec les commandes?")
+    print("Bah désolé mais la y'a rien :'-(")
+    print("Du coup continue!")
+  #elsif(aDire == "chainedecaractere")
+    #actions
+  #elsif(aDire == "chainedecaractere")
+    #actions
+  #ect jusqu'a :
+  else
+    print("Désolé, je ne comprends pas du tout ce que tu veux dire!")
+   
