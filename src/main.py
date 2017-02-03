@@ -24,5 +24,4 @@ while(continuer == 0)
   #ect jusqu'a :
   else
     print("Désolé, je ne comprends pas du tout ce que tu veux dire!")
-    print("C'est que je suis encore conne!")
-print("File sur github pour m'améliorer!")
+    print("File sur github pour m'améliorer!")
