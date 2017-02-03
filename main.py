@@ -7,5 +7,7 @@ print ("bonjour", nom)
 age = int(input("quel âge as-tu?"))
 if (age < 20):  
   print("Tu est trop jeune", nom ," désolé salut")
+elif (age > 45):
+  print("Cette appareil n'est pas fait pour les vieux Désolé")
 else:
   print("c'est bon tu peut avoir accès a moi",nom)
