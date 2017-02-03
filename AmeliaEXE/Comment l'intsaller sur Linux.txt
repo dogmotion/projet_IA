@@ -1,0 +1,7 @@
+Avant toute chose, veuillez deplacé le dossier AméliaIA dans le dossier "opt" du PC
+
+Vous faites clique droit Propriétés sur Installation d'Amélia.sh, vous allez dans perimmission puis "Executer comme programme"
+Vous lancez "Installation d'Amélia" et vous choisissez "Lacner dans un terminal"
+------------------------------------------------------------------------
+
+Faites exactement les mêmes instructions pour Amélia.sh" pour lancer le logiciel

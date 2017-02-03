@@ -1,0 +1,5 @@
+Vous téléchargez Python 3 sur python.org
+Vous demarrez Amélia.bat
+---------------------------------------------
+ça ne fonctionne pas ?
+Deplacez le dossier dans le dossier "Telechargement"
