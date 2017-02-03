@@ -46,6 +46,38 @@ else:
       print("Amélia, ton assistante personnelle")
     elif aDire == ("comment tu t appelle"):
       print("Amélia, ton assistante personnelle")
+    elif aDire == ("je te deteste"):
+      print("Désolé si je n'ai pas pu repondre à tes attentes...")
+    elif aDire == ("tu ressemble a quoi"):
+      print("Pour l'instant, à pas grand chose...")
+    elif aDire == ("esce que tu es belle"):
+      print("Pour l'instant, à pas grand chose...")
+    elif aDire == ("esque tes belle"):
+      print("Pour l'instant, à pas grand chose...")
+    elif aDire == ("es ce que tu es belle"):
+      print("Pour l'instant, à pas grand chose...")
+    elif aDire == ("pain au chocolot ou chocolatine"):
+      print("alala, la grande question...")
+    elif aDire == ("pain au chocolot ou chocolatine ?"):
+      print("alala, la grande question...")
+    elif aDire == ("pc ou mac"):
+      print("Linux")
+    elif aDire == ("mac ou pc"):
+      print("Linux")
+    elif aDire == ("iphone ou smartphone"):
+      print("je préfère les hommes, donc plutot Siri :)")
+    elif aDire == ("iphone ou android"):
+      print("je préfère les hommes, donc plutot Siri :)")
+    elif aDire == ("ios ou android"):
+      print("je préfère les hommes, donc plutot Siri :)")
+    elif aDire == ("siri ou cortana"):
+      print("je préfère les hommes, donc plutot Siri :)")
+    elif aDire == ("siri ou google"):
+      print("je préfère les hommes, donc plutot Siri :)")
+    elif aDire == ("siri ou ok google"):
+      print("je préfère les hommes, donc plutot Siri :)")
+    elif aDire == ("siri ou google now"):
+      print("je préfère les hommes, donc plutot Siri :)")
       
     else:
         print("Désolé, faite gaffe à ton orthographe,")
