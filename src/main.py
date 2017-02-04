@@ -26,14 +26,10 @@ else:
       continuer = 1#Permet de quitter la boucle
     elif aDire == ("Ta vie c'est de la merde"):
       print("J'ai le coeur rempli de joie, tu as le cul rempli de jus")
-    
     elif aDire == ("je t'aime"):
       print("Ah, ce n'est pas reciproque...")
-     
     elif aDire == ("quel heure est il"):
       print("T'as qu'a t'acheter une montre mongolito !")
-    
-    
     elif aDire == ("comment tu t'appelle"):
       print("Amélia, ton assistante personnelle")
     elif aDire == ("comment t'appelle tu"):
@@ -80,6 +76,5 @@ else:
       print("je préfère les hommes, donc plutot Siri :)")
       
     else:
-        print("Désolé, faite gaffe à ton orthographe,")
-        print("je nem pas les majuscules et la ponctuation")
+        print("Désolé, faite gaffe à ton orthographe, je nem pas les majuscules et la ponctuation")
         
