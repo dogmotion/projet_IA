@@ -1,4 +1,4 @@
-print ("Bonjour c'est moi , je suis ta nouvelle intelligence artifficielle, Amélia, Donne moi mon surnom") 
+print ("Bonjour c'est moi , je suis ta nouvelle intelligence artificielle, Amélia, Donne moi mon surnom") 
 prenom = input("choisis mon surnom ")
 print("merci j'aime bien", prenom)
 nom = input("quel est ton nom?")
@@ -7,7 +7,7 @@ age = int(input("quel âge as-tu?"))
 
 if (age < 18):  
   print("Tu est trop jeune", nom ," désolé salut")
-elif (age > 45):
+elif (age > 50):
   print(" je n'es pas été fait pour les vieux Désolé")
 else:
   print("c'est bon tu peux me posez tes questions", nom)
@@ -74,6 +74,20 @@ else:
       print("je préfère les hommes, donc plutot Siri :)")
     elif aDire == ("siri ou google now"):
       print("je préfère les hommes, donc plutot Siri :)")
+      elif aDire == ("tu fais quel métier"):
+      print("Je suis ton esclave en quelque sorte :)")
+    elif aDire == ("quel age a tu"):
+      print("Seulement quelques jours ^^")
+    elif aDire == ("tu ressemble à quoi"):
+      print("Tu le saura bientôt")
+    elif aDire == ("squesque je peux dire"):
+      print("Pour l'instant, plutot des questions simples")
+    elif aDire == ("que puis je dire"):
+      print("Pour l'instant, plutot quelque que chose de simple ^^, comme mon age ou mon métier, ou mes préférences")
+    elif aDire == ("quoi dire"):
+      print("Un truc simple à comprendre")
+    elif aDire == ("je dit quoi"):
+      print("Je peux pas le deviner ...")
       
     else:
         print("Désolé, faite gaffe à ton orthographe, je nem pas les majuscules et la ponctuation")
