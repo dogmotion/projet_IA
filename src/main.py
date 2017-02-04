@@ -80,7 +80,7 @@ else:
       print("Seulement quelques jours ^^")
     elif aDire == ("tu ressemble à quoi"):
       print("Tu le saura bientôt")
-    elif aDire == ("squesque je peux dire"):
+    elif aDire == ("quesque je peux dire"):
       print("Pour l'instant, plutot des questions simples")
     elif aDire == ("que puis je dire"):
       print("Pour l'instant, plutot quelque que chose de simple ^^, comme mon age ou mon métier, ou mes préférences")
