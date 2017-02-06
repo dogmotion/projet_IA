@@ -76,7 +76,7 @@ else:
       print("je préfère les hommes, donc plutot Siri :)")
     elif aDire == ("siri ou google now"):
       print("je préfère les hommes, donc plutot Siri :)")
-      elif aDire == ("tu fais quel métier"):
+    elif aDire == ("tu fais quel métier"):
       print("Je suis ton esclave en quelque sorte :)")
     elif aDire == ("quel age a tu"):
       print("Seulement quelques jours ^^")
