@@ -90,6 +90,21 @@ else:
       print("Un truc simple à comprendre")
     elif aDire == ("je dit quoi"):
       print("Je peux pas le deviner ...")
+    elif aDire == ("tu sert à rien"):
+      print("Et toi tu parle à une femme virtuelle, donc bon")
+    elif aDire == ("tu sert a rien"):
+      print("Et toi tu parle à une femme virtuelle, donc bon")
+    elif aDire == ("firefox ou chrome"):
+      print("Firefox, car je croit à Internet libre")
+    elif aDire == ("chrome ou firefox"):
+      print("Firefox, car je veux garder un peu ma vie privée")
+    elif aDire == ("tu ressemble a quoi"):
+      print("A ta mère, sauf que moi je m'assoie pas sur les trottoir à la recherche de fric si tu voit ce que je veux dire")
+    elif aDire == ("tu ressemble à quoi"):
+      print("A un programme codé en langage informatique")
+    elif aDire == ("ok"):
+      print("cool")
+      
     else:
         print("Désolé, faite gaffe à ton orthographe, je nem pas les majuscules et la ponctuation")
         
