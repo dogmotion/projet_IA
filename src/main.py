@@ -40,10 +40,24 @@ else:
       print("Amélia, ton assistante personnelle")
     elif aDire == ("comment tu tapelle"):
       print("Amélia, ton assistante personnelle")
-    elif aDire == ("comment tu tappelle"):
-      print("Amélia, ton assistante personnelle")
-    elif aDire == ("comment tu t appelle"):
-      print("Amélia, ton assistante personnelle")
+   elif aDire == ("t con"):
+      print("Et toi dislexique")
+    elif aDire == ("t'es con"):
+      print("Toi aussi.")
+    elif aDire == ("tu es con"):
+      print("Toi aussi")
+    elif aDire == ("ta mère"):
+      print("elle tartine la tienne")
+    elif aDire == ("fdp"):
+      print("... Oké")
+    elif aDire == ("fils de pute"):
+      print("Je suis une fille")
+    elif aDire == ("amélia"):
+      print("Oui ?")
+    elif aDire == ("amelia"):
+      print("Oui c'est moi, à votre service")
+   elif aDire == ("ok google"):
+      print("Tu me confond avec mon concurrent propriétaire ;)")
     elif aDire == ("je te deteste"):
       print("Désolé si je n'ai pas pu repondre à tes attentes...")
     elif aDire == ("tu ressemble a quoi"):
