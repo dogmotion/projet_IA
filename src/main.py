@@ -121,5 +121,5 @@ else:
     elif aDire == ("appeler maman"):
       print("je ne peut pas le faire ")
     else:
-        print("Désolé, faite gaffe à ton orthographe, je nem pas les majuscules et la ponctuation")
+        print("Désolé, fait gaffe a ton ortografe, je nem pas les majuscule et la ponctuation")
         
