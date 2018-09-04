@@ -51,7 +51,7 @@ else:
     elif aDire == ("fdp"):
       print("... Oké")
     elif aDire == ("fils de pute"):
-      print("Je suis une fille")
+      print("Mais euh... C'est pas gentil")
     elif aDire == ("amélia"):
       print("Oui ?")
     elif aDire == ("amelia"):
