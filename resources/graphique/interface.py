@@ -74,7 +74,7 @@ label = Label(prgprincipal, text="Dit moi tout")
 label.pack()
 
 
-visageAmelia = PhotoImage(file="/home/evan/Documents/amelia.png")
+visageAmelia = PhotoImage(file="amelia.png")
 
 
 canvas = Canvas(prgprincipal,width=500, height=500)
