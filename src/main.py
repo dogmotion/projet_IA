@@ -1,5 +1,4 @@
-from wiki.py import aDire 
-from joke.py import aDire
+
 print ("Bonjour c'est moi , je suis ta nouvelle intelligence artificielle, Amélia, Donne moi mon surnom") 
 prenom = input("choisis mon surnom ")
 print("merci j'aime bien", prenom)
@@ -40,7 +39,7 @@ else:
       print("Amélia, ton assistante personnelle")
     elif aDire == ("comment tu tapelle"):
       print("Amélia, ton assistante personnelle")
-   elif aDire == ("t con"):
+    elif aDire == ("t con"):
       print("Et toi dislexique")
     elif aDire == ("t'es con"):
       print("Toi aussi.")
@@ -56,7 +55,7 @@ else:
       print("Oui ?")
     elif aDire == ("amelia"):
       print("Oui c'est moi, à votre service")
-   elif aDire == ("ok google"):
+    elif aDire == ("ok google"):
       print("Tu me confond avec mon concurrent propriétaire ;)")
     elif aDire == ("je te deteste"):
       print("Désolé si je n'ai pas pu repondre à tes attentes...")
