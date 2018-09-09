@@ -1,4 +1,4 @@
-from ressources import wiki
+from ressources import wiki.py
 print ("Bonjour c'est moi , je suis ta nouvelle intelligence artificielle, Amélia, Donne moi mon surnom") 
 prenom = input("choisis mon surnom ")
 print("merci j'aime bien", prenom)
