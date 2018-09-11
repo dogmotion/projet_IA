@@ -48,6 +48,8 @@ def Enter_pressed(event):
     input_get = input_field.get()
     if input_get == ("test"):
         label = Label(prgprincipal, text="hello")
+    else:
+        label = Label(prgprincipal, text="Je n'ai pas compris")
     input_user.set('')
     label.pack()
     return "break"
