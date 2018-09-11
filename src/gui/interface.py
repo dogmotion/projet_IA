@@ -5,7 +5,7 @@ from ttk import *
 
 prgprincipal = Tk() #version du programme : alpha build 0.0.2
 
-prgprincipal.geometry ("700x500+450+500")
+prgprincipal.geometry ("400x300+450+500")
 prgprincipal.title ("Amélia alpha build 0.0.2")
 
 def aboutwindow():
@@ -36,14 +36,22 @@ def lienInAmelia():
      
      gobject.threads_init()  
      window = gtk.Window()
-     window.set_default_size(1100, 680)
+     window.set_default_size(500, 400)
      window.connect("destroy", lambda a: gtk.main_quit()) 
      browser = webkit.WebView()  
      browser.open("http://alfred-ia.org/essaye-moi/")  
      window.add(browser)  
      window.show_all()  
      gtk.main()
-          
+
+def Enter_pressed(event):
+    input_get = input_field.get()
+    print(input_get)
+    label = Label(prgprincipal, text=input_get)
+    input_user.set('')
+    label.pack()
+    return "break"
+
 menubar = Menu(prgprincipal)
 
 menu1 = Menu(menubar, tearoff=0)
@@ -65,19 +73,15 @@ menubar.add_cascade(label="Aide", menu=menu3)
 
 prgprincipal.config(menu=menubar)
 
-
-
-label = Label(prgprincipal, text="Coucou !")
-label.pack()
-
-label = Label(prgprincipal, text="Dit moi tout")
-label.pack()
-
-
 visageAmelia = PhotoImage(file="amelia.png")
 
+input_user = StringVar()
+input_field = Entry(prgprincipal, text=input_user)
+input_field.pack(side=BOTTOM, fill=X)
 
-canvas = Canvas(prgprincipal,width=500, height=500)
+input_field.bind("<Return>", Enter_pressed)
+
+canvas = Canvas(prgprincipal,width=400, height=300)
 canvas.create_image(0, 0, anchor=NW, image=visageAmelia)
 canvas.pack()
 
@@ -85,7 +89,6 @@ canvas.pack()
 prgprincipal.style = Style()
 #Voici les diferents styles : 'clam', 'alt', 'default', 'classic'
 prgprincipal.style.theme_use("clam")
-
 
 prgprincipal.mainloop()
 
