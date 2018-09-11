@@ -5,7 +5,7 @@ from ttk import *
 
 prgprincipal = Tk() #version du programme : alpha build 0.0.2
 
-prgprincipal.geometry ("400x300+450+500")
+prgprincipal.geometry ("300x700+450+500")
 prgprincipal.title ("Amélia alpha build 0.0.2")
 
 def aboutwindow():
@@ -46,8 +46,8 @@ def lienInAmelia():
 
 def Enter_pressed(event):
     input_get = input_field.get()
-    print(input_get)
-    label = Label(prgprincipal, text=input_get)
+    if input_get == ("test"):
+        label = Label(prgprincipal, text="hello")
     input_user.set('')
     label.pack()
     return "break"
@@ -81,10 +81,9 @@ input_field.pack(side=BOTTOM, fill=X)
 
 input_field.bind("<Return>", Enter_pressed)
 
-canvas = Canvas(prgprincipal,width=400, height=300)
+canvas = Canvas(prgprincipal,width=700, height=300)
 canvas.create_image(0, 0, anchor=NW, image=visageAmelia)
 canvas.pack()
-
 
 prgprincipal.style = Style()
 #Voici les diferents styles : 'clam', 'alt', 'default', 'classic'
