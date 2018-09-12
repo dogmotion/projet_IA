@@ -5,8 +5,10 @@ from ttk import *
 
 prgprincipal = Tk() #version du programme : alpha build 0.0.2
 
+version = 2
+
 prgprincipal.geometry ("300x700+450+500")
-prgprincipal.title ("Amélia alpha build 0.0.2")
+prgprincipal.title ("Amélia alpha build")
 
 def aboutwindow():
     about = Tk()
@@ -14,17 +16,17 @@ def aboutwindow():
     about.title ("A propos d'Amélia")
 
     
-    label = Label(about, text="Amélia est un programme libre créer en Python")
+    label = Label(about, text="Amélia est un logiciel libre. Codé en Python 2.7")
     label.pack()
     
     label = Label(about, text="par Mael Le Boulicaut et Evan Diberder")           
     label.pack()
 
-    label = Label(about, text="version alpha 0.0.2, GPL V3 License")           
+    label = Label(about, text="Version Alpha 0.0.2, License GPL V3")           
     label.pack()
 
     
-    canvas = Canvas(aboutwindow,width=48, height=48)
+    canvas = Canvas(aboutwindow,width=60, height=25)
     canvas.create_image(1000, 1000, anchor=NW, image=visageAmelia)
     canvas.pack()
 
@@ -73,7 +75,7 @@ input_field.pack(side=BOTTOM, fill=X)
 input_field.bind("<Return>", Enter_pressed)
 
 prgprincipal.style = Style()
-#Voici les diferents styles : 'clam', 'alt', 'default', 'classic'
+#Voici les différents styles : 'clam', 'alt', 'default', 'classic'
 prgprincipal.style.theme_use("alt")
 
 prgprincipal.mainloop()
