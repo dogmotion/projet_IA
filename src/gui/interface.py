@@ -62,7 +62,7 @@ visageAmelia = PhotoImage(file="amelia.png")
 
 prgprincipal.config(menu=menubar)
 
-canvas = Canvas(prgprincipal,width=700, height=300)
+canvas = Canvas(prgprincipal,width=180, height=300)
 canvas.create_image(0, 0, anchor=NW, image=visageAmelia)
 canvas.pack()
 
