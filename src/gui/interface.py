@@ -32,6 +32,8 @@ def Enter_pressed(event):
     input_get = input_field.get()
     if input_get == ("test"):
         label = Label(prgprincipal, text="hello")
+    elif input_get == ("salut"):
+        label = Label(prgprincipal, text="salut !")
     else:
         label = Label(prgprincipal, text="Je n'ai pas compris")
     input_user.set('')
@@ -72,7 +74,7 @@ input_field.bind("<Return>", Enter_pressed)
 
 prgprincipal.style = Style()
 #Voici les diferents styles : 'clam', 'alt', 'default', 'classic'
-prgprincipal.style.theme_use("clam")
+prgprincipal.style.theme_use("alt")
 
 prgprincipal.mainloop()
 
