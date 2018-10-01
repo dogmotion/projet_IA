@@ -32,10 +32,21 @@ def aboutwindow():
 
 def Enter_pressed(event):
     input_get = input_field.get()
-    if input_get == ("test"):
+    if input_get == ("salut"):
         label = Label(prgprincipal, text="hello")
-    elif input_get == ("salut"):
-        label = Label(prgprincipal, text="salut !")
+    elif input_get == ("ca va"):
+        label = Label(prgprincipal, text="Bien sur et vous ?")
+    elif input_get == ("comment ca va"):
+        label = Label(prgprincipal, text=" Ca va bien et vous ?"
+    elif input_get == ("Je suis nul"):
+        label = Label(prgprincipal, text="Bien sur "
+    elif input_get == ("Tu m aime"):
+        label = Label(prgprincipal, text="Bah non quelle question !"
+    elif input_get == ("connard"):
+        label = Label(prgprincipal, text="La PS4 dans crane à ta mère"
+    elif input_get == ("je comprends rien au math"):
+        label = Label(prgprincipal, text="NANI"
+
     else:
         label = Label(prgprincipal, text="Je n'ai pas compris")
     input_user.set('')
