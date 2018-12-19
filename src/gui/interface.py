@@ -142,26 +142,8 @@ def Enter_pressed(event):
         label = Label(prgprincipal, text="Amélia, ton assistante personnelle")
     elif input_get == ("résumé de"):
         label = Label(prgprincipal, text="-un monde sauvage/eldorado/pierre et jean")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")                  
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
+    elif input_get == ("bonjour"):
+        label = Label(prgprincipal, text="Salut ! Je suis Amélia, je suis ravi de te retrouver !")
     elif input_get == (""):
         label = Label(prgprincipal, text="")
     elif input_get == (""):
@@ -176,7 +158,25 @@ def Enter_pressed(event):
         label = Label(prgprincipal, text="")
     elif input_get == (""):
         label = Label(prgprincipal, text="")                  
-     elif input_get == (""):
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
         label = Label(prgprincipal, text="")
     elif input_get == (""):
         label = Label(prgprincipal, text="")
