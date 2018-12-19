@@ -37,15 +37,15 @@ def Enter_pressed(event):
     elif input_get == ("ca va"):
         label = Label(prgprincipal, text="Bien sur et vous ?")
     elif input_get == ("comment ca va"):
-        label = Label(prgprincipal, text=" Ca va bien et vous ?"
+        label = Label(prgprincipal, text=" Ca va bien et vous ?")
     elif input_get == ("Je suis nul"):
-        label = Label(prgprincipal, text="Bien sur "
+        label = Label(prgprincipal, text="Bien sur ")
     elif input_get == ("Tu m aime"):
-        label = Label(prgprincipal, text="Bah non quelle question !"
+        label = Label(prgprincipal, text="Bah non quelle question !")
     elif input_get == ("connard"):
-        label = Label(prgprincipal, text="La PS4 dans crane à ta mère"
+        label = Label(prgprincipal, text="La PS4 dans crane à ta mère")
     elif input_get == ("je comprends rien au math"):
-        label = Label(prgprincipal, text="NANI"
+        label = Label(prgprincipal, text="NANI")
     elif input_get == ("quand est né steve jobs"):
         label = Label(prgprincipal, text="le 24 février 1955, a San Fransisco, Californie, Etat Unis")
     elif input_get == ("steve jobs"):
