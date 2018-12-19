@@ -122,6 +122,24 @@ def Enter_pressed(event):
         label = Label(prgprincipal, text="Guillaume Pley est un animateur de radio et un présentateur de télévision française, né le 26 juillet 1985 à Sainte-Adresse en Seine-Maritime.")
     elif input_get == ("lesage"):
         label = Label(prgprincipal, text="Alain-René Lesage ou Le Sage, né à Sarzeau le 8 mai 1668 et mort à Boulogne-sur-Mer le 17 novembre 1747, est un romancier et auteur dramatique français surtout connu comme étant l'auteur du roman picaresque Histoire de Gil Blas de Santillane.")
+    elif input_get == ("c'est nul"):
+        label = Label(prgprincipal, text="Bon, au revoir alors!")
+    elif input_get == ("au revoir"):
+        label = Label(prgprincipal, text="Bon, au revoir alors!")
+    elif input_get == ("Ta vie c'est de la merde"):
+        label = Label(prgprincipal, text="J'ai le coeur rempli de joie, tu as le cul rempli de jus")
+    elif input_get == ("je t'aime"):
+        label = Label(prgprincipal, text="Ah, ce n'est pas reciproque...")
+    elif input_get == ("quel heure est il"):
+        label = Label(prgprincipal, text="T'as qu'a t'acheter une montre mongolito !")
+    elif input_get == ("comment tu t'appelle"):
+        label = Label(prgprincipal, text="Amélia, ton assistante personnelle")
+    elif input_get == ("comment t'appelle tu"):
+        label = Label(prgprincipal, text="Amélia, ton assistante personnelle")
+    elif input_get == ("c quoi ton nom"):
+        label = Label(prgprincipal, text="Amélia, ton assistante personnelle")
+    elif input_get == ("comment tu tapelle"):
+        label = Label(prgprincipal, text="Amélia, ton assistante personnelle")
     elif input_get == (""):
         label = Label(prgprincipal, text="")
     elif input_get == (""):
@@ -139,9 +157,49 @@ def Enter_pressed(event):
     elif input_get == (""):
         label = Label(prgprincipal, text="")
     elif input_get == (""):
+        label = Label(prgprincipal, text="")                  
+    elif input_get == (""):
         label = Label(prgprincipal, text="")
     elif input_get == (""):
         label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")                  
+     elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")
+    elif input_get == (""):
+        label = Label(prgprincipal, text="")                  
+                      
+                      
+                   
+                      
+                      
+                      
     else:
         label = Label(prgprincipal, text="Je n'ai pas compris")
     input_user.set('')
