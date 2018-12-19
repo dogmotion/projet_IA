@@ -140,8 +140,8 @@ def Enter_pressed(event):
         label = Label(prgprincipal, text="Amélia, ton assistante personnelle")
     elif input_get == ("comment tu tapelle"):
         label = Label(prgprincipal, text="Amélia, ton assistante personnelle")
-    elif input_get == (""):
-        label = Label(prgprincipal, text="")
+    elif input_get == ("résumé de"):
+        label = Label(prgprincipal, text="-un monde sauvage/eldorado/pierre et jean")
     elif input_get == (""):
         label = Label(prgprincipal, text="")
     elif input_get == (""):
